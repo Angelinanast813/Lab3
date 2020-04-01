@@ -1,0 +1,49 @@
+.recipe{
+    width: 30%;
+    margin: 30px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+.recipe .ttl{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.recipe .option{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.recipe .option-block{
+    margin: 20px 0;
+}
+
+.recipe .date{
+    color: darkgray;
+    font-size: 13px;
+}
+
+.recipe .image{
+    margin-bottom: -20px;
+}
+
+.recipe .ttl:hover{
+    color: seagreen;
+    text-decoration: unset;
+}
+
+.recipe .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recipe .btn2{
+    width: 90%;
+    margin: 0 5%;
+}
